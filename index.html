@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="logo">Logo</div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#cards">Serviços</a></li>
+                <li><a href="#section-left">Sobre</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SEÇÃO HERO: Imagem ao fundo com texto à esquerda -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Bem-vindo à Nossa Landing Page</h1>
+                <p>Conheça nossos serviços e produtos incríveis</p>
+                <a href="#cards" class="cta-button">Saiba Mais</a>
+            </div>
+            <div class="hero-background"></div>
+        </section>
+
+        <!-- SEÇÃO DE CARDS: Texto + 3 Cards -->
+        <section id="cards" class="cards-section">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Descubra tudo que podemos oferecer para você</p>
+            </div>
+            
+            <div class="cards-container">
+                <article class="card">
+                    <img src="./Imagens/placeholder-1.jpg" alt="Serviço 1">
+                    <div class="card-content">
+                        <h3>Serviço 1</h3>
+                        <p>Descrição do primeiro serviço que oferecemos.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./Imagens/placeholder-2.jpg" alt="Serviço 2">
+                    <div class="card-content">
+                        <h3>Serviço 2</h3>
+                        <p>Descrição do segundo serviço que oferecemos.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./Imagens/placeholder-3.jpg" alt="Serviço 3">
+                    <div class="card-content">
+                        <h3>Serviço 3</h3>
+                        <p>Descrição do terceiro serviço que oferecemos.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SEÇÃO: Imagem à esquerda + Texto à direita -->
+        <section class="section-with-image-left">
+            <div class="image-wrapper">
+                <img src="./Imagens/placeholder-4.jpg" alt="Descrição da imagem">
+            </div>
+            <div class="text-content">
+                <h2>Imagem à Esquerda</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </section>
+
+        <!-- SEÇÃO: Texto à esquerda + Imagem à direita -->
+        <section id="section-left" class="section-with-image-right">
+            <div class="text-content">
+                <h2>Texto à Esquerda</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="image-wrapper">
+                <img src="./Imagens/placeholder-5.jpg" alt="Descrição da imagem">
+            </div>
+        </section>
+
+        <!-- SEÇÃO: Texto acima + 10 Imagens abaixo -->
+        <section id="gallery" class="gallery-section">
+            <div class="section-header">
+                <h2>Nossa Galeria</h2>
+                <p>Confira algumas de nossas melhores obras</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <img src="./Imagens/gallery-1.jpg" alt="Galeria 1">
+                <img src="./Imagens/gallery-2.jpg" alt="Galeria 2">
+                <img src="./Imagens/gallery-3.jpg" alt="Galeria 3">
+                <img src="./Imagens/gallery-4.jpg" alt="Galeria 4">
+                <img src="./Imagens/gallery-5.jpg" alt="Galeria 5">
+                <img src="./Imagens/gallery-6.jpg" alt="Galeria 6">
+                <img src="./Imagens/gallery-7.jpg" alt="Galeria 7">
+                <img src="./Imagens/gallery-8.jpg" alt="Galeria 8">
+                <img src="./Imagens/gallery-9.jpg" alt="Galeria 9">
+                <img src="./Imagens/gallery-10.jpg" alt="Galeria 10">
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre</h3>
+                <p>Informações sobre a empresa e seus valores.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#cards">Serviços</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: contato@example.com</p>
+                <p>Telefone: (11) 9999-9999</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Landing Page. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
